@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+This project demonstrates unit testing of React components using Jest and React Testing Library. It focuses on writing tests for React components, ensuring that components function as expected. The project includes basic configurations for running tests, along with sample component tests.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+✅ Unit testing React components with Jest
+✅ Using React Testing Library for testing component behavior
+✅ Test-driven development (TDD) approach
+✅ Setup for testing with setupTests.js
+✅ Example tests for basic components like App.js
 
-## Available Scripts
+Technologies Used
+React.js - Frontend library for building the application
+Jest - JavaScript testing framework
+React Testing Library - Library for testing React components
+CSS - Styling for components
+npm - Dependency management
 
-In the project directory, you can run:
+Project Structure
+/React-component-unit-test
+│── /src
+│   ├── /components/    # React components
+│   ├── App.js          # Main component
+│   ├── App.test.js     # Unit test for App component
+│   ├── index.js        # Entry point for React app
+│   ├── setupTests.js   # Setup for testing environment
+│── /public             # Static files
+│── .gitignore          # Git ignore settings
+│── package.json        # Project dependencies and scripts
+│── README.md           # Project documentation
 
-### `npm start`
+Installation & Setup
+1.Clone the repository:
+git clone https://github.com/saraswathi2015/React-component-unit-test.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2.Navigate into the project directory:
+cd React-component-unit-test
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3.Install dependencies:
+npm install
 
-### `npm test`
+4.To run the tests:
+npm test
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5.To start the development server:
+npm start
 
-### `npm run build`
+The app will be available at http://localhost:3000/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Usage
+App.test.js contains the unit tests for the main App.js component.
+You can add more tests for additional components by creating corresponding .test.js files.
+The React Testing Library is used to simulate user interactions and test component behavior.
